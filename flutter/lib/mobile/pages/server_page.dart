@@ -577,8 +577,8 @@ class _PermissionCheckerState extends State<PermissionChecker> {
           PermissionRow(
               translate("Screen Capture"),
               serverModel.mediaOk,
-              !serverModel.mediaOk &&
-                      gFFI.userModel.userName.value.isEmpty &&
+              // !serverModel.mediaOk &&
+                      // gFFI.userModel.userName.value.isEmpty &&
                   //     bind.mainGetLocalOption(key: "show-scam-warning") != "N"
                   // ? () => showScamWarning(context, serverModel)
                   // : serverModel.toggleService),
