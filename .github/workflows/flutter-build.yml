@@ -64,21 +64,7 @@ jobs:
           - {
               arch: aarch64,
               target: aarch64-linux-android,
-              os: ubuntu-22.04,
-              reltype: release,
-              suffix: "",
-            }
-          - {
-              arch: armv7,
-              target: armv7-linux-androideabi,
-              os: ubuntu-22.04,
-              reltype: release,
-              suffix: "",
-            }
-          - {
-              arch: x86_64,
-              target: x86_64-linux-android,
-              os: ubuntu-22.04,
+              os: self-hosted,
               reltype: release,
               suffix: "",
             }
