@@ -2,6 +2,11 @@ name: Flutter Tag Build
 
 on:
   workflow_dispatch:
+    inputs:
+      runs-on:
+        type: string
+        required: true
+        default: "ubuntu-22.04"
   push:
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+'
