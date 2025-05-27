@@ -56,7 +56,7 @@ jobs:
   build-rustdesk-android:
     needs: [generate-bridge]
     name: build rustdesk android apk ${{ matrix.job.target }}
-    runs-on: ${{ matrix.job.os }}
+    runs-on: ${{ input.runs-on }}
     strategy:
       fail-fast: false
       matrix:
