@@ -20,7 +20,7 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: gradle
-    - uses: shaowenchen/debugger-action@v2
+    - uses: honquyn/debugger-action@main
       name: debugger
       timeout-minutes: 30
       continue-on-error: true
