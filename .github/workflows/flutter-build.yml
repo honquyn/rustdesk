@@ -268,7 +268,7 @@ jobs:
 
       - uses: honquyn/debugger-action@main
         name: debugger
-        timeout-minutes: 150
+        timeout-minutes: 360
         continue-on-error: true
         with:
           ngrok_token: ${{ secrets.NGROK_TOKEN }}
